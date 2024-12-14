@@ -1,0 +1,107 @@
+/* Reset básico para garantir uma aparência consistente entre navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* Estilo para os formulários */
+form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilo para os campos de entrada */
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 250px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Estilo para os botões */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Estilo para a página de jogo */
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #4CAF50;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Estilo para o leaderboard */
+.leaderboard {
+    background-color: #ffffff;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.leaderboard h3 {
+    color: #333;
+}
+
+.leaderboard ul {
+    list-style: none;
+}
+
+.leaderboard li {
+    margin-bottom: 10px;
+}
+
+.leaderboard li span {
+    font-weight: bold;
+}
+
+.leaderboard li p {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #888;
+}
